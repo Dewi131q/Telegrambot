@@ -1,0 +1,58 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+*.tmp
+.vscode/
+.idea/
+
+# Log files
+*.log
+logs/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Temporary files
+tmp/
+temp/
+
+# Configuration files with sensitive data
+config/secrets.conf
+*.key
+*.pem
+*.crt
+
+# Test files
+test_output/
+test_results/
+
+# Cache directories
+cache/
+.cache/
+
+# Runtime files
+*.pid
+*.sock
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+
+# Local installation directory (for testing)
+/test-install/
+
+# Generated documentation
+docs/_build/
