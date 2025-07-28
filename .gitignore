@@ -1,0 +1,78 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Configuration files with sensitive data
+config/*.json
+akun/*.txt
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+
+# Database files
+*.db
+*.sql
+
+# Cache files
+cache/
+.cache/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS generated files
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Package files
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# Compiled files
+*.o
+*.so
+*.dll
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
